@@ -1,0 +1,10 @@
+# Generated model files
+data/
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
