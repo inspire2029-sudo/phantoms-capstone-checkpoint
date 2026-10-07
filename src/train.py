@@ -86,13 +86,16 @@ def main():
         ])
         results[name] = evaluate(pipeline, X_train, X_test, y_train, y_test)
 
-    best_model = max(results, key=lambda name: results[name]["f1"])
+    best_model_by_f1 = max(results, key=lambda name: results[name]["f1"])
+    selected_model = "logistic_regression"
     payload = {
         "dataset": "Titanic",
         "target": "Survived",
         "split": {"test_size": 0.2, "random_state": RANDOM_STATE, "stratified": True},
         "models": results,
-        "best_model_by_f1": best_model,
+        "best_model_by_f1": best_model_by_f1,
+        "selected_model": selected_model,
+        "selection_reason": "Logistic Regression was selected as the practical final model because its F1 is effectively tied with the neural network while its Recall is higher and its complexity is lower.",
         "deep_learning_decision": "Neural network tested, but not selected because its extra complexity did not produce a meaningful F1/Recall improvement.",
     }
 
