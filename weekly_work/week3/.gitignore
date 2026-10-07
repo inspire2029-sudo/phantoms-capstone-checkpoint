@@ -1,0 +1,9 @@
+# Generated datasets
+cleaned_data.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
