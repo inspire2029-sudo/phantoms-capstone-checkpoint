@@ -1,6 +1,6 @@
 # Previous Weekly Work
 
-الـCapstone ده مبني على شغل الأسابيع السابقة. بدل ما نكرر نفس الملفات ونكبر الـrepository، الروابط هنا بتوصل للـrepositories الأصلية بكل ملفاتها وNotebooks بتاعتها.
+الـCapstone ده مبني على شغل الأسابيع السابقة. تم حفظ نسخ من ملفات الـweekly work داخل المجلد ده، وفي نفس الوقت الروابط بتوصل للـrepositories الأصلية لو محتجنا نراجع الـhistory.
 
 ## Week 1
 
@@ -32,4 +32,4 @@ Neural networks, ML vs Deep Learning, debugging, dropout/overfitting, activation
 
 ## Why the Capstone is separate
 
-الـweekly repositories بتفضل محفوظة كـlearning history، بينما `phantoms-capstone-checkpoint` هو المشروع النهائي اللي بيربط المهارات دي كلها في Pipeline واحدة قابلة للتشغيل والتقييم.
+الـweekly repositories الأصلية بتفضل محفوظة كـlearning history، والنسخ الموجودة هنا بتخلي التسليم النهائي self-contained قدر الإمكان. أما `phantoms-capstone-checkpoint` فهو المشروع النهائي اللي بيربط المهارات دي كلها في Pipeline واحدة قابلة للتشغيل والتقييم.
